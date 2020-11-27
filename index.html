@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with HTML5 Canvas </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <canvas class="draw_panel" id="draw" width="800" height="800"></canvas>
+    <div class="panels">
+        <label id="base" for="base">Color Panel
+            <input id="basepanel" type="color" name="base" value="#df2020">
+        </label>
+        <br>
+        <label id="spacing" for="spacing">Line Width
+            <input id="spacingrange" type="range" name="spacing" min="2" max="100" value="50" data-sizing="px">
+        </label>
+    </div>
+
+
+    <script src="code2.js"></script>
+</body>
+
+</html>
